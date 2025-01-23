@@ -1,0 +1,176 @@
+body {
+    background: #151515;
+    color: white;
+}
+
+#skills{
+    margin-bottom: 100px;
+}
+
+
+/* navbar */
+#home {
+    margin-bottom: 40px;
+}
+
+#home a {
+    font-weight: 700;
+    border-bottom: 2px groove yellow;
+    letter-spacing: 0.04rem;
+    text-transform: uppercase;
+}
+
+a:link,
+a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #555555;
+    transition: 0.2s;
+}
+
+
+#home li a {
+    color: #fff;
+    font-weight: 800;
+    font-size: 1.4em;
+    letter-spacing: 0.04rem;
+    border-bottom: 2px solid yellow;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+#home li a:hover {
+    color: #555555;
+    transition: 0.2s;
+}
+
+/* sobre-mim */
+
+p {
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+}
+
+#sobre .container {
+    background: #131313;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 10px;
+
+}
+
+#skills h1 {
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 3px solid yellow;
+    text-align: center;
+    margin-bottom: 15px;
+    letter-spacing: 0.04rem;
+}
+
+
+/* cards */
+
+
+
+#html-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+#html-card:hover::after {
+    height: 20px;
+    content: 'Intermediário';
+    font-weight: 700;
+    margin: auto;
+}
+
+#css-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+#css-card:hover::after {
+    height: 20px;
+    content: 'Intermediário';
+    font-weight: 700;
+    margin: auto;
+}
+
+#js-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+#js-card:hover::after {
+    height: 20px;
+    content: 'Básico';
+    font-weight: 700;
+    margin: auto;
+}
+
+#php-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+#php-card:hover::after {
+    height: 20px;
+    content: 'Básico';
+    font-weight: 700;
+    margin: auto;
+}
+
+#bootstrap-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+#bootstrap-card:hover::after {
+    height: 20px;
+    content: 'Básico';
+    font-weight: 700;
+    margin: auto;
+}
+
+#cu-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+#cu-card:hover::after {
+    height: 20px;
+    content: 'Básico';
+    font-weight: 700;
+    margin: auto;
+}
+
+
+
+
+
+#projetos h1 {
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 3px solid yellow;
+    letter-spacing: 0.04rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
