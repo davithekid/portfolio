@@ -1,6 +1,10 @@
 body{
     background-color: #151515;
     color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100dvh;
 }
 
 
@@ -66,4 +70,26 @@ h3{
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.04rem;   
+}
+
+
+
+
+@media (max-width: 575.98px){
+
+
+   
+
+    img{
+        width: 80px;
+    }
+
+    footer h3{
+        font-size: 15px;
+    }
+
+    footer p{
+        margin-top: 10px;
+    }
+
 }

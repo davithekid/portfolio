@@ -51,7 +51,7 @@ a:hover{
 
 /* sobre-mim */
 
-p {
+#sobre p {
     font-size: 1.1rem;
     font-weight: 700;
     letter-spacing: 0.03em;
@@ -87,7 +87,6 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
 
 #html-card::after {
@@ -244,9 +243,20 @@ span {
     #sobre p{
         font-size: 14px;
         text-align: justify;
+       
     }
 
-}
+        footer h3{
+            font-size: 15px;
+        }
+    
+        footer p{
+            margin-top: 10px;
+        }
+    
+    }
+
+
 
 @media (max-width:991.98px){
     #sobre img{

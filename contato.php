@@ -10,13 +10,13 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-<link rel="stylesheet" href="./css/contato.css">
+    <link rel="stylesheet" href="./css/contato.css">
 
-    <title>Olá, mundo!</title>
+    <title>Davi Chagas dev/contato</title>
 </head>
 
 <body>
-   
+
     <!-- inicio header -->
     <header id="home">
 
@@ -27,10 +27,10 @@
             <button class="navbar-toggler m-auto" type="button" data-toggle="collapse" data-target="#nav">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            
+
             <div class="collapse navbar-collapse" id="nav">
                 <ul class="navbar-nav m-auto ">
-            <!-- cabeçalho -->
+                    <!-- cabeçalho -->
                     <li class="nav-item pr-3 "><a href="index.html">Home</a></li>
                     <li class="nav-item pr-3"><a href="sobre.html">Sobre</a></li>
                     <li class="nav-item pr-3"><a href="contato.php">Contato</a></li>
@@ -41,48 +41,79 @@
     </header>
     <!-- fim header -->
 
-    <section id="contato">
-        <div class="container">
+    <section id="contato ">
+        <div class="container ">
             <h1>Contato</h1>
             <div class="row">
                 <div class="col-md-12 m-auto">
-                    <form  action="">
-                    <div class="form-group">
-                        <label for="nome" >Nome</label>
-                        <input class="form-control" type="text" name="nome" id="nome">
-                    </div>
+                    <form action="txt/back.php" method="post">
+                        <div class="form-group">
+                            <label for="nome">Nome</label>
+                            <input class="form-control" type="text" name="nome" id="nome">
+                        </div>
 
-                    <div class="form-group">
-                        <label  for="assunto">Assunto</label>
-                       <textarea class="form-control" name="assunto" id="assunto"></textarea>
-                    </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input class="form-control" type="text" name="email" id="email">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="assunto">Assunto</label>
+                            <textarea class="form-control" name="assunto" id="assunto"></textarea>
+                        </div>
+
+                        <div class="d-flex justify-content-center">
+                            <input class="form-control btn btn-success w-25" type="submit" value="enviar" name="enviar">
+                            <input class="form-control btn btn-warning ml-5 w-25" type="reset" value="limpar">
+                        </div>
+
+
 
                     </form>
                 </div>
             </div>
         </div>
+
+     
+
     </section>
     <!-- fim form -->
 
     <section id="redes">
         <div class="container">
-            <h3>fale-comigo    </h3>
+            <h3>fale-comigo </h3>
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-sm-12 d-flex justify-content-around">
                     <a href=""><img src="img/email.svg" width="100" alt="" class="img-fluid"></a>
-                </div>
-                <div class="col-md-3">
-                   <a href=""><img src="img/github.svg" width="100" alt="" class=""></a>
-                </div>
-                <div class="col-md-3">
-                    <a href=""><img src="img/linkedin.svg" width="100" alt=""></a> 
-                </div>
-                <div class="col-md-3">
-                    <a href=""><img src="img/wpp.svg" width="100" alt="" class="img-fluid"></a>
+                    <a href=""><img src="img/github.svg" width="100" alt="" class="img-fluid "></a>
+                    <a href=""><img src="img/linkedin.svg" width="100" alt="" class="img-fluid"></a>
+                    <a href=""><img src="img/wpp.svg" width="100" alt="" class="img-fluid "></a>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- inicio footer -->
+    <footer class="d-flex justify-content-center" style="background-color: #101010;">
+        <div class="container p-3">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Site desenvolvido com: </h3>
+                    <img src="img/js.png" width="50px" alt="" class="img-fluid pr-3">
+                    <img src="img/php.png" width="50px" alt="" class="img-fluid pr-3">
+                    <img src="img/bootstrap.png" width="50px" alt="" class="img-fluid pr-3">
+                </div>
+                <div class="col-md-8 d-flex align-items-center">
+                    <p>
+                        &copy; Davi Chagas, <b>
+                            todos os direitos reservados.
+                        </b>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- fim footer -->
 
 
 
