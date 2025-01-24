@@ -10,27 +10,34 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-<link rel="stylesheet" href="/css/contato.css">
+<link rel="stylesheet" href="./css/contato.css">
 
     <title>Olá, mundo!</title>
 </head>
 
 <body>
+   
     <!-- inicio header -->
     <header id="home">
 
-        <div>
+        <nav class="nav navbar-expand-md navbar-light  ">
+            <h2><a href="index.html">Def Davi Chagas ;</a></h2>
 
-            <nav class="navbar">
-                <h2><a href="index.html">Def Davi Chagas ;</a></h2>
-                <ul class="nav nav-bar m-auto ">
+            <!-- icon menu -->
+            <button class="navbar-toggler m-auto" type="button" data-toggle="collapse" data-target="#nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav m-auto ">
+            <!-- cabeçalho -->
                     <li class="nav-item pr-3 "><a href="index.html">Home</a></li>
                     <li class="nav-item pr-3"><a href="sobre.html">Sobre</a></li>
-                    <li class="nav-item pr-3"><a href="contato.html">Contato</a></li>
+                    <li class="nav-item pr-3"><a href="contato.php">Contato</a></li>
                 </ul>
-
-            </nav>
-        </div>
+            </div>
+            <!-- fim cabeçlho -->
+        </nav>
     </header>
     <!-- fim header -->
 

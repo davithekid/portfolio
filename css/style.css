@@ -9,8 +9,8 @@ body {
 
 body,
 #apresentacao {
-    height: 100dvh;
-    overflow-y: hidden;
+    height: 90dvh;
+    
     
 }
 
@@ -105,7 +105,36 @@ small{
     font-weight: 400;
 }
 
-/* sobre */
+/* media */
 
+@media (max-width: 575.98px){
+
+    header a{
+        font-size: 25px;
+    }
+
+
+   img {
+    width: 350px;
+   }
+
+   p{
+    font-size: 30px;
+   }
+   
+}
+
+@media (max-width:991.98px){
+
+    p{
+        font-size: 30px;
+    }
+
+    img {
+    width: 400px;
+     
+    }
+
+}
 
 

@@ -3,7 +3,7 @@ body {
     color: white;
 }
 
-#skills{
+#skills {
     margin-bottom: 100px;
 }
 
@@ -13,23 +13,23 @@ body {
     margin-bottom: 40px;
 }
 
-#home a {
+#home h2  {
     font-weight: 700;
     border-bottom: 2px groove yellow;
     letter-spacing: 0.04rem;
     text-transform: uppercase;
 }
 
-a:link,
-a:visited {
+a:link, a:visited{
     color: #fff;
     text-decoration: none;
 }
 
-a:hover {
+a:hover{
     color: #555555;
     transition: 0.2s;
 }
+
 
 
 #home li a {
@@ -47,6 +47,7 @@ a:hover {
     color: #555555;
     transition: 0.2s;
 }
+
 
 /* sobre-mim */
 
@@ -76,6 +77,10 @@ p {
 
 /* cards */
 
+.card h2{
+    color: #eeeded;
+    font-weight: 800;
+}
 
 
 #html-card {
@@ -85,6 +90,12 @@ p {
 
 }
 
+#html-card::after {
+    content: '';
+    height: 0;
+    transition: height 0.2s ease-in-out;
+}
+
 #html-card:hover::after {
     height: 20px;
     content: 'Intermediário';
@@ -92,11 +103,19 @@ p {
     margin: auto;
 }
 
+
 #css-card {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
+}
+
+#css-card::after {
+    content: '';
+
+    height: 0;
+    transition: height 0.2s ease-in-out;
 }
 
 #css-card:hover::after {
@@ -113,9 +132,16 @@ p {
 
 }
 
+#js-card::after {
+    content: '';
+
+    height: 0;
+    transition: height 0.2s ease-in-out;
+}
+
 #js-card:hover::after {
     height: 20px;
-    content: 'Básico';
+    content: 'Intermediário';
     font-weight: 700;
     margin: auto;
 }
@@ -127,9 +153,16 @@ p {
 
 }
 
+#php-card::after {
+    content: '';
+
+    height: 0;
+    transition: height 0.2s ease-in-out;
+}
+
 #php-card:hover::after {
     height: 20px;
-    content: 'Básico';
+    content: 'Intermediário';
     font-weight: 700;
     margin: auto;
 }
@@ -141,29 +174,33 @@ p {
 
 }
 
+#bootstrap-card::after {
+    content: '';
+
+    height: 0;
+    transition: height 0.2s ease-in-out;
+}
+
 #bootstrap-card:hover::after {
     height: 20px;
-    content: 'Básico';
+    content: 'Intermediário';
     font-weight: 700;
     margin: auto;
 }
 
-#cu-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 
+#cu-card::after {
+    content: '';
+    height: 0;
+    transition: height 0.2s ease-in-out;
 }
 
 #cu-card:hover::after {
     height: 20px;
-    content: 'Básico';
+    content: 'Intermediário';
     font-weight: 700;
     margin: auto;
 }
-
-
-
 
 
 #projetos h1 {
@@ -174,3 +211,51 @@ p {
     text-align: center;
     margin-bottom: 30px;
 }
+
+span {
+    display: block;
+    color: yellow;
+    border-bottom: 1px solid yellow;
+}   
+
+
+
+#projetos .card{
+    transition: 0.2s;
+    box-shadow: 10px 10px 20px #282828;
+}
+#projetos .card:hover{
+   transform: scale(1.1);
+}
+
+
+
+/* fim projetos */
+
+/* media */
+
+@media (max-width: 575.98px){
+
+    #sobre img {
+       margin-left: 20px ;
+        width: 50px;
+    }
+
+    #sobre p{
+        font-size: 14px;
+        text-align: justify;
+    }
+
+}
+
+@media (max-width:991.98px){
+    #sobre img{
+        margin-left: 30px;
+        width: 300px;
+    }
+
+    #sobre p {
+        font-size: 16px;
+    }
+}
+
