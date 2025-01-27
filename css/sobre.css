@@ -13,19 +13,20 @@ body {
     margin-bottom: 40px;
 }
 
-#home h2  {
+#home h2 {
     font-weight: 700;
     border-bottom: 2px groove yellow;
     letter-spacing: 0.04rem;
     text-transform: uppercase;
 }
 
-a:link, a:visited{
+a:link,
+a:visited {
     color: #fff;
     text-decoration: none;
 }
 
-a:hover{
+a:hover {
     color: #555555;
     transition: 0.2s;
 }
@@ -53,15 +54,14 @@ a:hover{
 
 #sobre p {
     font-size: 1.1rem;
-    font-weight: 700;
     letter-spacing: 0.03em;
 }
 
 #sobre .container {
-    background: #131313;
-    border-radius: 10px;
+    background: #101111;
+    border-radius: 20px;
     margin-top: 50px;
-    padding: 10px;
+  
 
 }
 
@@ -77,9 +77,10 @@ a:hover{
 
 /* cards */
 
-.card h2{
-    color: #eeeded;
-    font-weight: 800;
+.card h2 {
+    color: #101010;
+    font-weight: 750;
+    text-transform:capitalize
 }
 
 
@@ -93,12 +94,13 @@ a:hover{
     content: '';
     height: 0;
     transition: height 0.2s ease-in-out;
+    color: #101010;
 }
 
 #html-card:hover::after {
     height: 20px;
     content: 'Intermediário';
-    font-weight: 700;
+    font-weight: 800;
     margin: auto;
 }
 
@@ -112,15 +114,16 @@ a:hover{
 
 #css-card::after {
     content: '';
-
     height: 0;
     transition: height 0.2s ease-in-out;
+    color: #101010;
+
 }
 
 #css-card:hover::after {
     height: 20px;
     content: 'Intermediário';
-    font-weight: 700;
+    font-weight: 800;
     margin: auto;
 }
 
@@ -133,7 +136,7 @@ a:hover{
 
 #js-card::after {
     content: '';
-
+    color: #101010;
     height: 0;
     transition: height 0.2s ease-in-out;
 }
@@ -141,7 +144,7 @@ a:hover{
 #js-card:hover::after {
     height: 20px;
     content: 'Intermediário';
-    font-weight: 700;
+    font-weight: 800;
     margin: auto;
 }
 
@@ -154,7 +157,7 @@ a:hover{
 
 #php-card::after {
     content: '';
-
+    color: #101010;
     height: 0;
     transition: height 0.2s ease-in-out;
 }
@@ -162,7 +165,7 @@ a:hover{
 #php-card:hover::after {
     height: 20px;
     content: 'Intermediário';
-    font-weight: 700;
+    font-weight: 800;
     margin: auto;
 }
 
@@ -175,7 +178,7 @@ a:hover{
 
 #bootstrap-card::after {
     content: '';
-
+    color: #101010;
     height: 0;
     transition: height 0.2s ease-in-out;
 }
@@ -183,7 +186,7 @@ a:hover{
 #bootstrap-card:hover::after {
     height: 20px;
     content: 'Intermediário';
-    font-weight: 700;
+    font-weight: 800;
     margin: auto;
 }
 
@@ -192,13 +195,16 @@ a:hover{
     content: '';
     height: 0;
     transition: height 0.2s ease-in-out;
+    color: #101010;
+
 }
 
 #cu-card:hover::after {
     height: 20px;
     content: 'Intermediário';
-    font-weight: 700;
+    font-weight: 800;
     margin: auto;
+
 }
 
 
@@ -215,16 +221,17 @@ span {
     display: block;
     color: yellow;
     border-bottom: 1px solid yellow;
-}   
+}
 
 
 
-#projetos .card{
+#projetos .card {
     transition: 0.2s;
     box-shadow: 10px 10px 20px #282828;
 }
-#projetos .card:hover{
-   transform: scale(1.1);
+
+#projetos .card:hover {
+    transform: scale(1.1);
 }
 
 
@@ -233,39 +240,29 @@ span {
 
 /* media */
 
-@media (max-width: 575.98px){
+@media (min-width: 1px) and (max-width: 575.98px) {
+
+    #sobre .container {
+        border: none;
+    }
 
     #sobre img {
-       margin-left: 20px ;
-        width: 50px;
-    }
-
-    #sobre p{
-        font-size: 14px;
-        text-align: justify;
-       
-    }
-
-        footer h3{
-            font-size: 15px;
-        }
-    
-        footer p{
-            margin-top: 10px;
-        }
-    
-    }
-
-
-
-@media (max-width:991.98px){
-    #sobre img{
-        margin-left: 30px;
-        width: 300px;
+        margin-left: 90px;
+        width: 200px;
     }
 
     #sobre p {
-        font-size: 16px;
-    }
-}
+        font-size: 14px;
+        text-align: justify;
 
+    }
+
+    footer h3 {
+        font-size: 15px;
+    }
+
+    footer p {
+        margin-top: 10px;
+    }
+
+}

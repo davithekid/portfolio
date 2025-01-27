@@ -21,10 +21,10 @@
     <header id="home">
 
         <nav class="nav navbar-expand-md navbar-light  ">
-            <h2><a href="index.html">Def Davi Chagas ;</a></h2>
+            <!-- <h2><a href="index.html">Def Davi Chagas ;</a></h2> -->
 
             <!-- icon menu -->
-            <button class="navbar-toggler m-auto" type="button" data-toggle="collapse" data-target="#nav">
+            <button class="navbar-toggler m-auto" type="button" data-toggle="collapse" data-target="#nav" style="background-color: yellow;">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -42,7 +42,7 @@
     <!-- fim header -->
 
     <section id="contato ">
-        <div class="container ">
+        <div class="container">
             <h1>Contato</h1>
             <div class="row">
                 <div class="col-md-12 m-auto">
