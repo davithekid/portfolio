@@ -1,6 +1,12 @@
 body {
-    background: #151515;
-    color: white;
+
+    background-color: #151515;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100dvh;
+
 }
 
 #skills {
@@ -201,7 +207,7 @@ a:hover {
 
 #cu-card:hover::after {
     height: 20px;
-    content: 'Intermediário';
+    content: 'Básico';
     font-weight: 800;
     margin: auto;
 
@@ -225,19 +231,6 @@ span {
 
 
 
-#projetos .card {
-    transition: 0.2s;
-    box-shadow: 10px 10px 20px #282828;
-}
-
-#projetos .card:hover {
-    transform: scale(1.1);
-}
-
-
-
-/* fim projetos */
-
 /* media */
 
 @media (min-width: 1px) and (max-width: 575.98px) {
@@ -247,7 +240,7 @@ span {
     }
 
     #sobre img {
-        margin-left: 90px;
+        margin-left: 70px;
         width: 200px;
     }
 

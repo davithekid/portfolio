@@ -33,6 +33,7 @@
                     <!-- cabeçalho -->
                     <li class="nav-item pr-3 "><a href="index.html">Home</a></li>
                     <li class="nav-item pr-3"><a href="sobre.html">Sobre</a></li>
+                    <li class="nav-item pr-3"><a href="projetos.html">Projetos</a></li>
                     <li class="nav-item pr-3"><a href="contato.php">Contato</a></li>
                 </ul>
             </div>
@@ -43,8 +44,9 @@
 
     <section id="contato ">
         <div class="container">
-            <h1>Contato</h1>
-            <div class="row">
+            
+            <h1 class="text-center" style="border-bottom: 3px solid yellow;">Contato</h1>
+            <div class="row" >
                 <div class="col-md-12 m-auto">
                     <form action="txt/back.php" method="post">
                         <div class="form-group">
@@ -63,8 +65,8 @@
                         </div>
 
                         <div class="d-flex justify-content-center">
-                            <input class="form-control btn btn-success w-25" type="submit" value="enviar" name="enviar">
-                            <input class="form-control btn btn-warning ml-5 w-25" type="reset" value="limpar">
+                            <input class="form-control btn btn-success w-25 text-dark font-weight-bold" type="submit" value="Enviar" name="enviar">
+                            <input class="form-control btn btn-warning ml-5 w-25 text-dark font-weight-bold" type="reset" value="Limpar">
                         </div>
 
 
@@ -85,9 +87,10 @@
             <div class="row">
                 <div class="col-sm-12 d-flex justify-content-around">
                     <a href=""><img src="img/email.svg" width="100" alt="" class="img-fluid"></a>
-                    <a href=""><img src="img/github.svg" width="100" alt="" class="img-fluid "></a>
-                    <a href=""><img src="img/linkedin.svg" width="100" alt="" class="img-fluid"></a>
-                    <a href=""><img src="img/wpp.svg" width="100" alt="" class="img-fluid "></a>
+                    <a href="https://github.com/davithekid" target="_blank"><img src="img/github.svg" width="100" alt="" class="img-fluid "></a>
+                    <a href="https://www.linkedin.com/in/chagas-davi/" target="_blank"><img src="img/linkedin.svg" width="100" alt="" class="img-fluid"></a>
+                    <a href="https://wa.me/5511946522127?text=Ol%C3%A1%2C%20Sinta-se%20a%20vontade%20para%20enviar%20sua%20mensagem!!!
+                    "><img src="img/wpp.svg" width="100" alt="" class="img-fluid "></a>
                 </div>
             </div>
         </div>
