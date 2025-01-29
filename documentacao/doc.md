@@ -1,10 +1,10 @@
 # Documentação 
 
 ## Sobre 
-- Apresentação (curriculo) sobre mim
+- Apresentação (curriculo) sobre mim.
 
 ## Layout
-- Colunas de informações
+- Colunas de informações com propósito de ser direto ao entrevistador, com elementos cativantes e interativo.
 
 ## Paleta de cores
 
