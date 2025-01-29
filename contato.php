@@ -63,8 +63,8 @@
                         </div>
 
                         <div class="d-flex justify-content-center">
-                            <input class="form-control btn btn-success w-25" type="submit" value="enviar" name="enviar">
-                            <input class="form-control btn btn-warning ml-5 w-25" type="reset" value="limpar">
+                            <input class="form-control btn btn-success w-25 text-dark font-weight-bold" type="submit" value="Enviar" name="enviar">
+                            <input class="form-control btn btn-warning ml-5 w-25 text-dark font-weight-bold" type="reset" value="Limpar">
                         </div>
 
 
@@ -87,7 +87,7 @@
                     <a href=""><img src="img/email.svg" width="100" alt="" class="img-fluid"></a>
                     <a href=""><img src="img/github.svg" width="100" alt="" class="img-fluid "></a>
                     <a href=""><img src="img/linkedin.svg" width="100" alt="" class="img-fluid"></a>
-                    <a href=""><img src="img/wpp.svg" width="100" alt="" class="img-fluid "></a>
+                    <a href="  https://wa.me/5511946522127?text=Ol%C3%A1%2C%20Sinta-se%20a%20vontade%20para%20enviar%20sua%20mensagem!!!"><img src="img/wpp.svg" width="100" alt="" class="img-fluid "></a>
                 </div>
             </div>
         </div>

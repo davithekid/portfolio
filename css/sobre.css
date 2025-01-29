@@ -1,6 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 body {
     background: #151515;
     color: white;
+    font-family: "Montserrat";
 }
 
 #skills {
@@ -66,7 +71,7 @@ a:hover {
 }
 
 #skills h1 {
-    font-weight: 700;
+    font-weight: 900;
     text-transform: uppercase;
     border-bottom: 3px solid yellow;
     text-align: center;
@@ -209,7 +214,7 @@ a:hover {
 
 
 #projetos h1 {
-    font-weight: 700;
+    font-weight: 900;
     text-transform: uppercase;
     border-bottom: 3px solid yellow;
     letter-spacing: 0.04rem;
