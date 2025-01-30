@@ -56,8 +56,16 @@ a:hover {
 
 /* contato */
 
+<<<<<<< HEAD
 #contato h1 {
+<<<<<<< HEAD
     font-weight: 900;
+=======
+=======
+h1{
+>>>>>>> 7d9899ecfcaef0b1d1ce807ab1057f293688ebb8
+    font-weight: 700;
+>>>>>>> cd6dc3fb19cad7385433732a698393bc04a93238
     text-transform: uppercase;
     border-bottom: 3px solid yellow;
     text-align: center;
@@ -65,16 +73,25 @@ a:hover {
     letter-spacing: 0.04rem;
 }
 
+<<<<<<< HEAD
 #contato.container {
 
     background-color: #000;
     padding: 35px;
     border-radius: 15px;
+=======
+>>>>>>> 7d9899ecfcaef0b1d1ce807ab1057f293688ebb8
 
-}
 
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+>>>>>>> cd6dc3fb19cad7385433732a698393bc04a93238
 #redes h3 {
+=======
+#redes h3{
+>>>>>>> 7d9899ecfcaef0b1d1ce807ab1057f293688ebb8
     margin-top: 20px;
     font-weight: 700;
     text-transform: uppercase;
