@@ -1,0 +1,98 @@
+body{
+    background-color: #151515;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100dvh;
+}
+
+
+/* navbar */
+#home {
+    margin-bottom: 40px;
+}
+
+#home a {
+    font-weight: 700;
+    border-bottom: 2px groove yellow;
+    letter-spacing: 0.04rem;
+    text-transform: uppercase;
+}
+
+
+a:hover {
+    color: #555555;
+    transition: 0.2s;
+    text-decoration: none;
+}
+
+ a:link,
+a:visited, a:active {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+#home li a {
+    color: #fff;
+    font-weight: 800;
+    font-size: 1.4em;
+    letter-spacing: 0.04rem;
+    border-bottom: 2px solid yellow;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+#home li a:hover {
+    color: #555555;
+    transition: 0.2s;
+}
+
+/* sessao projetos */
+
+
+#projetos .card {
+    transition: 0.2s;
+    box-shadow: 10px 10px 20px #282828;
+}
+
+#projetos .card:hover {
+    transform: scale(1.1);
+}
+
+#projetos h1{
+    font-weight: 700;
+   text-transform: uppercase;
+   letter-spacing: 0.04rem;
+  border-bottom: 3px solid yellow;
+}
+
+
+
+
+.card:hover{
+    text-decoration: none;
+}
+
+
+.card a h2{
+    color: #101010;
+    font-weight: 750;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+
+#projetos a:link a:visited{
+    color: #101010;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
