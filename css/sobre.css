@@ -3,20 +3,9 @@
 
 
 body {
-<<<<<<< HEAD
     background: #151515;
     color: white;
     font-family: "Montserrat";
-=======
-
-    background-color: #151515;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100dvh;
-
->>>>>>> 7d9899ecfcaef0b1d1ce807ab1057f293688ebb8
 }
 
 #skills {
@@ -228,10 +217,52 @@ a:hover {
     font-weight: 900;
     text-transform: uppercase;
     border-bottom: 3px solid yellow;
-    letter-spacing: 0.04rem;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
+    letter-spacing: 0.04rem;
 }
+
+/* sessao projetos */
+
+
+#projetos .card {
+    transition: 0.2s;
+    box-shadow: 10px 10px 20px #282828;
+}
+
+#projetos .card:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+.card:hover{
+    text-decoration: none;
+}
+
+
+.card a h2{
+    color: #101010;
+    font-weight: 750;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+
+#projetos a:link a:visited{
+    color: #101010;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+
+
 
 span {
     display: block;
