@@ -19,7 +19,7 @@
     <!-- inicio header -->
     <header id="home">
 
-        <nav class="nav navbar-expand-md navbar-light  mt-1 ">
+        <nav class="nav navbar-expand-md navbar-light  mt-1 animar">
             <!-- <h2><a href="index.html">Def Davi Chagas ;</a></h2> -->
 
             <!-- icon menu -->
@@ -33,7 +33,6 @@
                     <!-- cabeçalho -->
                     <li class="nav-item pr-3 "><a href="index.html">Home</a></li>
                     <li class="nav-item pr-3"><a href="sobre.html">Sobre</a></li>
-                    <li class="nav-item pr-3"><a href="projetos.html">Projetos</a></li>
                     <li class="nav-item pr-3"><a href="contato.php">Contato</a></li>
                 </ul>
             </div>
@@ -42,7 +41,7 @@
     </header>
     <!-- fim header -->
 
-    <section id="sobre-mim">
+    <section id="sobre-mim" class="animar">
 
         <!-- sobre -->
         <section id="sobre">
@@ -55,10 +54,10 @@
                     <div class="col-md-8">
 
 
-            
+
                         <p class="mt-5 text-justify">Estou cursando Técnico em
                             Desenvolvimento de Sistemas no SENAI, no segundo semestre. Tenho experiência com PHP,
-                            Bootstrap e JavaScript, com foco no desenvolvimento web.   </p>
+                            Bootstrap e JavaScript, com foco no desenvolvimento web. </p>
                         <p class="mt-5 text-justify">
                             Meu objetivo é me tornar um
                             desenvolvedor full-stack, trabalhando tanto no front-end quanto no back-end, e buscando
@@ -75,8 +74,8 @@
         </section>
         <!-- fim sobre -->
 
-        <section id="skills">
-            <div class="container mt-5">
+        <section id="skills" class="scroll-area">
+            <div class="container mt-5 ">
                 <h1>Skills</h1>
                 <div class="row">
 
@@ -140,10 +139,9 @@
         <!-- fim skills -->
     </section>
 
-<<<<<<< HEAD
     <!-- inicio projetos -->
     <section id="projetos">
-        <div class="container mb-5 ">
+        <div class="container mb-5 animar">
             <h1 class="text-center">Projetos</h1>
             <div class="row">
                 <div class="col-lg-4 ">
@@ -172,7 +170,8 @@
                 <div class="col-lg-4">
                     <div class="card bg-warning m-4 ">
                         <a href="https://github.com/davithekid/calculadora">
-                            <h2 class="text-center">Calculadora</h2><img src="img/calculadora2.png"  alt="" class="img-fluid">
+                            <h2 class="text-center">Calculadora</h2><img src="img/calculadora2.png" alt=""
+                                class="img-fluid">
                         </a>
                     </div>
                 </div>
@@ -196,18 +195,14 @@
         </div>
     </section>
     <!-- fim projetos -->
-=======
-
-   
->>>>>>> cd6dc3fb19cad7385433732a698393bc04a93238
 
 
 
 
-   
+
 
     <!-- inicio footer -->
-    <footer class="d-flex justify-content-center" style="background-color: #101010;">
+    <footer class="d-flex justify-content-center animar" style="background-color: #101010;">
         <div class="container p-3">
             <div class="row">
                 <div class="col-md-4">
@@ -225,6 +220,39 @@
         </div>
     </footer>
     <!-- fim footer -->
+
+    <script>
+
+        const observerConf = {
+            root: null,
+            threshold: 0.3,
+
+        }
+
+        const callback = (entries, observer) => {
+
+            entries.forEach(entry => {
+
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('is-visible')
+                } else {
+                    entry.target.classlist.remove('is-visible');
+                }
+
+            });
+
+
+        }
+
+        const observer = new IntersectionObserver(callback, observerConf)
+
+        const elementos = document.querySelectorAll(".animar")
+
+        elementos.forEach(elemento => observer.observe(elemento))
+
+
+
+    </script>
 
 
 

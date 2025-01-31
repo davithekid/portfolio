@@ -33,7 +33,6 @@
                     <!-- cabeçalho -->
                     <li class="nav-item pr-3 "><a href="index.html">Home</a></li>
                     <li class="nav-item pr-3"><a href="sobre.html">Sobre</a></li>
-                    <li class="nav-item pr-3"><a href="projetos.html">Projetos</a></li>
                     <li class="nav-item pr-3"><a href="contato.php">Contato</a></li>
                 </ul>
             </div>
@@ -87,16 +86,9 @@
             <div class="row">
                 <div class="col-sm-12 d-flex justify-content-around">
                     <a href=""><img src="img/email.svg" width="100" alt="" class="img-fluid"></a>
-<<<<<<< HEAD
                     <a href=""><img src="img/github.svg" width="100" alt="" class="img-fluid "></a>
                     <a href=""><img src="img/linkedin.svg" width="100" alt="" class="img-fluid"></a>
                     <a href="  https://wa.me/5511946522127?text=Ol%C3%A1%2C%20Sinta-se%20a%20vontade%20para%20enviar%20sua%20mensagem!!!"><img src="img/wpp.svg" width="100" alt="" class="img-fluid "></a>
-=======
-                    <a href="https://github.com/davithekid" target="_blank"><img src="img/github.svg" width="100" alt="" class="img-fluid "></a>
-                    <a href="https://www.linkedin.com/in/chagas-davi/" target="_blank"><img src="img/linkedin.svg" width="100" alt="" class="img-fluid"></a>
-                    <a href="https://wa.me/5511946522127?text=Ol%C3%A1%2C%20Sinta-se%20a%20vontade%20para%20enviar%20sua%20mensagem!!!
-                    "><img src="img/wpp.svg" width="100" alt="" class="img-fluid "></a>
->>>>>>> 7d9899ecfcaef0b1d1ce807ab1057f293688ebb8
                 </div>
             </div>
         </div>

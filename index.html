@@ -17,9 +17,9 @@
 <body>
 
     <!-- inicio header -->
-    <header id="home">
+    <header id="home" class="animar">
 
-        <nav class="nav navbar-expand-md navbar-light  mt-1 ">
+        <nav class="nav navbar-expand-md navbar-light  mt-1">
             
             <!-- icon menu -->
             <button class="navbar-toggler m-auto" type="button" data-toggle="collapse" data-target="#nav" style="background-color: yellow;">
@@ -32,7 +32,6 @@
                     <!-- <h2><a href="">Def Davi Chagas ;</a></h2> -->
                     <li class="nav-item pr-3 " id="marcacao"><a href="index.html">Home</a></li>
                     <li class="nav-item pr-3"><a href="sobre.html">Sobre</a></li>
-                    <li class="nav-item pr-3"><a href="projetos.html">Projetos</a></li>
                     <li class="nav-item pr-3"><a href="contato.php">Contato</a></li>
                 </ul>
             </div>
@@ -43,7 +42,7 @@
 
 
     <!-- apresentação  -->
-    <section id="apresentacao" class="" >
+    <section id="apresentacao" class="animar">
         <div class="container  ">
             <div class="row ">
                 <div class="texto col-md-6 m-auto">
@@ -88,11 +87,41 @@
             })
         }
 
-
-
-
-
     </script>
+
+<script>
+
+    const observerConf = {
+        root: null,
+        threshold: 0.3,
+
+    }
+
+    const callback = (entries, observer) => {
+
+        entries.forEach(entry => {
+
+            if (entry.isIntersecting) {
+                entry.target.classList.add('is-visible')
+            } else {
+                entry.target.classlist.remove('is-visible');
+            }
+
+        });
+
+
+    }
+
+    const observer = new IntersectionObserver(callback, observerConf)
+
+    const elementos = document.querySelectorAll(".animar")
+
+    elementos.forEach(elemento => observer.observe(elemento))
+
+
+
+</script>
+
 
 
 
